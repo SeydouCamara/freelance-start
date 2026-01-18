@@ -148,15 +148,29 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXX
 ## TODOs
 - [x] Setup projet + design system
 - [x] Landing page
-- [ ] Questionnaire multi-etapes
-- [ ] Moteur de recommandation
-- [ ] Page resultats
+- [x] Questionnaire multi-etapes (6 questions, animations, localStorage)
+- [x] Moteur de recommandation (scoring Micro/EURL/SASU)
+- [x] Page resultats (comparaison, warnings, checklist, partenaires)
 - [ ] Auth magic link PocketBase
 - [ ] Dashboard utilisateur
 - [ ] Tracking affiliations
 - [ ] Deploiement Vercel
 
 ## Status
-- **Version**: 0.1.0
-- **Stage**: Development (MVP Semaine 1)
+- **Version**: 0.2.0
+- **Stage**: Development (MVP Semaine 1-2)
 - **Revenue**: 0 EUR/mois
+
+## Changelog
+
+### v0.2.0 (18/01/2026)
+- Questionnaire interactif 6 questions avec cards animees (Framer Motion)
+- Context provider avec persistence localStorage
+- Moteur de recommandation avec matrice de scoring
+- Page resultats complete: recommandation, comparaison statuts, warnings, checklist
+- Grille partenaires affilies
+
+### v0.1.0 (18/01/2026)
+- Setup initial Next.js 16 + TypeScript + Tailwind 4
+- Design system inspire Pulsr.io (dark mode)
+- Landing page complete
